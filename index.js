@@ -11,11 +11,11 @@ client.giveawaysManager = new GiveawaysManager(client, {
     updateCountdownEvery: 3000,
     default: {
         botsCanWin: false,
-        embedColor: "#FF0000",
+        embedColor: "#1bddf5",
         reaction: "🎉"
     }
 });
-//Coded by Phantom
+//Coded by BØLD
 
 /* Load all events */
 fs.readdir("./events/", (_err, files) => {
